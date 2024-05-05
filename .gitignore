@@ -1,0 +1,9 @@
+**/*.exe
+**/node_modules/
+/.vscode/
+
+
+**/.env
+*.orig
+*.pyc
+*.swp
