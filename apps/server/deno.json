@@ -1,6 +1,8 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "build": "deno compile -o ./main ./main.ts "
-  }
+    "build": "deno task clean && deno compile --output .bin/server ./main.ts ",
+    "clean": "rm -rf .bin"
+  },
+  "workspaces": []
 }

@@ -1,7 +1,7 @@
 **/*.exe
 **/node_modules/
 /.vscode/
-
+**/.bin/
 
 **/.env
 *.orig
